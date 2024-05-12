@@ -1,0 +1,390 @@
+/* .zeyada-regular {
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.style-script-regular {
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.emilys-candy-regular {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+            font-style: normal;
+} */
+
+/* #D1FF99
+#2E3861
+#FFE555
+#FE855D
+#F8F4F9 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url('Assets/cursor.png'), auto;
+}
+html{
+    background-color: #2E3861;
+}
+body{
+    background-color: #2E3861;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #FE855D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.indiatitle img{
+    width: auto;
+    height: 100px;
+    margin-left: -55px;
+    border-bottom-left-radius: 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+nav a:hover{
+    font-size: 40px;
+    color: #ffea81;
+    text-shadow: 0px 0px 3px #FFE555, 2px 2px 5px #2E3861;
+}
+h1{
+    text-align: center;
+}
+.intro{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.map img:hover{
+    filter: drop-shadow(0px 0px 7px #FFE555);
+    height: 120%;
+    width: auto;
+}
+.text{
+    padding-top: 30px;
+    margin-right: 30px;
+    margin-left: 10px;
+    text-align: center;
+    height: 450px;
+    width: 650px;
+    padding-right: 20px;
+    color: white;
+}
+.text h2{
+    text-align: center;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.para{
+    padding-top: 20px;
+    font-size: 19px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    filter: drop-shadow(2px 2px 1px black);
+}
+
+@media screen and (max-width: 1200px) {
+    .para{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .para{
+        font-size: 15px;
+    }
+    .map{
+        height: 90%;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    nav a:hover{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .para{
+        font-size: 12px;
+    }
+    .text h2{
+        font-size: 25px;
+    }
+    .text{
+        margin-right: 10px;
+        margin-left: -30px;
+    }
+    nav a{
+        font-size: 15px;
+    }
+    nav a:hover{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .text h2{
+        font-size: 30px;
+    }
+    nav{
+        width: 100%;
+        height: 80px;
+    }
+    .indiatitle img{
+        width: auto;
+        height: 80px;
+        margin-left: -38.5px;
+    }
+    .para{
+        font-size: 13px;
+    }
+    .map img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.statescaps, .unionterritories{
+    padding-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.statescaps h1, .unionterritories h1{
+    letter-spacing: 3px;
+}
+.states, .uts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.states div, .uts div{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px #FFE555;
+    border-radius: 10px;
+    background-color: #ffef92;
+    align-content: center;
+}
+.states div:hover, .uts div:hover{
+    background-color: #FFE555;
+    box-shadow: inset 3px 3px 4px black, inset 5px 5px 10px rgba(81, 81, 81, 0.632), inset -3px -3px 5px #FFE555;
+}
+.states a, .uts a{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.states span, .uts span{
+    color: #d10034;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+    .states div, .uts div{
+        width: 100px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .states a, .uts a{
+        font-size: 13px;
+    }
+    .states span, .uts span{
+        font-size: 10px;
+    }
+}
+
+.culture{
+    margin-top: 100px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section.wrapper {
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .photo-gallery__wrapper {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo-gallery__wrapper div {
+    height: 80px;
+    overflow: hidden;
+  }
+  
+  .image-holder {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .image-holder img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  .image-thumbnail img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    transition: transform 0.35s;
+    transform: scale(1);
+    filter: grayscale(1);
+  }
+  .image-thumbnail img.active {
+    filter: none;
+  }
+  .image-thumbnail img:hover {
+    transition: transform 0.35s, filter 0.35s linear;
+    transform: scale(1.12);
+    filter: none;
+  }
+
+.culture-info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-overflow: hidden;
+}
+.culture-info div{
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    box-shadow: inset 0 0 10px #ffffff5a;
+    border-radius: 10px;
+}
+.culture-info div:hover{
+    box-shadow: none;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 20px #ffffff67;
+}
+.culture-info .temple:hover{
+    background-image: url('Assets/temple.jpg');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+}
+.culture-info .dance:hover{
+    background-image: url('Assets/dance.jpg');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+}
+.culture-info .festival:hover{
+    background-image: url('Assets/holi.jpg');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+}
+.culture-info .spices:hover{
+    background-image: url('Assets/spices.png');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+}
+.culture-info .food:hover{
+    background-image: url('Assets/.jpg');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+}
+.culture-info .language:hover{
+    background-image: url('Assets/languages.png');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black;
+}
+.culture-info .diversity:hover{
+    background-image: url('Assets/dresses.jpg');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+}
+.culture-info .monument:hover{
+    background-image: url('Assets/monument.png');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+}
+.culture-info .landscape:hover{
+    background-image: url('Assets/valley.jpg');
+    background-position: center;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px black;
+}
+
+footer{
+    background: #D1FF99;
+    height: 20px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
