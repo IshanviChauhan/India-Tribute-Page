@@ -47,7 +47,3 @@ If you'd like to contribute to this tribute page by adding new features, improvi
 ## Credits
 
 - **Images**: All images used in this tribute page are sourced from the Assets folder of this repository.
-
-## License
-
-This tribute page is licensed under the [MIT License](LICENSE).
